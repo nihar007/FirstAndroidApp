@@ -2,18 +2,23 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>Ndroid TestApp</title>
   <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
+ 	
+	<div ng-app> <!-- This is what you should care about -->
+		<p> ng-app declared for this part </p>
+		<p> {{'Do you know that 1 + 1 = ' + (1+1) }}</p>
 
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
+		
+	</div><br/><br/>
+	<!--=========================-->
+	<div ng-app>
+		<p> As soon as AngularJS finds first declaration of 'ng-app' it ignores others  Nihar</p>
+		<p> {{'Do you know that 1 + 1 = ' + (1+1) }}</p>
+	</div><br/><br/>
+	<!--=========================-->
 
   
   <script src="lib/angular/angular.js"></script>
