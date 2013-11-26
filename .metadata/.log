@@ -1,0 +1,27 @@
+!SESSION 2013-11-26 13:53:00.724 -----------------------------------------------
+eclipse.buildId=v22.2.1-833290
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-26 13:55:03.356
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2013-11-26 13:56:24.247
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.8.8
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2013-11-26 13:56:24.485
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.5.1
+
+!ENTRY com.google.gwt.eclipse.core 1 0 2013-11-26 14:00:16.411
+!MESSAGE Reset default editor for extension: xml
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2013-11-26 14:00:18.846
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
