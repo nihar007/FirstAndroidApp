@@ -2,31 +2,28 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>Ndroid TestApp</title>
+  <title>MVC Architecture</title>
   <link rel="stylesheet" href="css/app.css"/>
 </head>
-<body>
- 	
-	<div ng-app> <!-- This is what you should care about -->
-		<p> ng-app declared for this part </p>
-		<p> {{'Do you know that 1 + 1 = ' + (1+1) }}</p>
+<body ng-controller="myController" >
+                <select ng-model="selectedCompany">
+                        <option value="Google">Google</option>
+                        <option value="Microsoft">Microsoft</option>
+                        <option value="VMWare">VMWare</option>
+                </select>
 
-		
-	</div><br/><br/>
-	<!--=========================-->
-	<div ng-app>
-		<p> As soon as AngularJS finds first declaration of 'ng-app' it ignores others  Nihar</p>
-		<p> {{'Do you know that 1 + 1 = ' + (1+1) }}</p>
-	</div><br/><br/>
-	<!--=========================-->
+                <p style="display: inline;" class="text-info"> {{ selectedCompany + ' Stock price =' + stockPrice[selectedCompany]}} <p>
 
-  
+            
+
   <script src="lib/angular/angular.js"></script>
+  <script src=" js/stockController.js"></script>
   <script src="lib/angular/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+ 
 </body>
 </html>
