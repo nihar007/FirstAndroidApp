@@ -8,7 +8,7 @@ function myController($scope){
           console.log("First: Inside AngularJS Controller: called when DOM tree is created");
   
           //Stock price object.
-          $scope.nihar="Nihar";
+        
           
           $scope.stockPrice = {
                 "Google":  "600$",
@@ -17,6 +17,6 @@ function myController($scope){
         };
 
           //Select VMWare by default
-        $scope.selectedCompany = "VMWare";
+       // $scope.selectedCompany = "VMWare";
     
 }
